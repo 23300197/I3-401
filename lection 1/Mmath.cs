@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lection_1
+namespace leason_1
 {
-    internal class Mmath
+    public class Mmath:Math
     {
+        void test() {
+            Min(new int[] { 1, 2, 3, 4, 5, 6 });
+        
+        }
     }
 }

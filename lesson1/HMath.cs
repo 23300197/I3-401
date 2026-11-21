@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lesson1
+namespace lesson2
 {
-    internal class HMath
+    internal class HMath: leason_1.Mmath
     {
+        void test() { 
+        
+        
+        }
     }
 }

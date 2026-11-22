@@ -58,7 +58,38 @@ namespace leason_1
         int Modles(int Base, int Exnumber) { return Base % Exnumber; }
 
 
+        public double Average(int[] numbers)
+        {
+            return Sum(numbers) / numbers.Length;
+        }
 
 
+
+        public bool Palindrome(string text)
+        {
+            int left = 0;
+            int right = text.Length - 1;
+
+            while (left < right)
+            {
+                if (char.ToLower(text[left]) != char.ToLower(text[right])) 
+                    return false;
+
+                left++;
+                right--;
+            }
+
+            return true;
+        }
+
+
+
+        public bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
+
+
+       
     }
 }

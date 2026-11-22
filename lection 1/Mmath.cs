@@ -10,7 +10,7 @@ namespace leason_1
     {
         void test() {
             Min(new int[] { 1, 2, 3, 4, 5, 6 });
-        
+            
         }
     }
 }
